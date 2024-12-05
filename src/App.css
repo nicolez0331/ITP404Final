@@ -1,0 +1,408 @@
+body {
+  margin-left: 20%;
+  width: 60%;
+  font-family: "Avenir Next";
+  background-color: hsl(46, 100%, 94%);
+  color: #333;
+}
+
+h2 {
+  color: #ff7043;
+  font-weight: 400;
+  background-color: hsl(46, 100%, 94%);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container button {
+  margin-bottom: 10px;
+}
+
+.recommendation-options {
+  display: flex;
+  gap: 20px;
+}
+
+.recommendation-options div {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.3rem;
+  color: #ff7043;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-brunch {
+  text-decoration: none;
+  background-color: #ffca28;
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-brunch:hover {
+  background-color: #ffb444;
+  transform: scale(1.01);
+}
+
+.recommended-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recommended-list li {
+  padding: 40px;
+  background-color: rgb(255, 234, 198);
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+
+.welcome-image-container {
+  margin: 20px 0;
+}
+
+.welcome-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fffbe7;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 12px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #ffca28;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.table tr:nth-child(even) {
+  background-color: #fff4d7;
+}
+.table-link {
+  text-decoration: none;
+  color: rgb(243, 165, 20);
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+.table-link:hover {
+  color: #8a4c0f;
+}
+
+.menu {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.active-link {
+  font-weight: bold;
+  color: rgb(243, 165, 20);
+}
+
+.menu-link {
+  text-decoration: none;
+  color: rgb(243, 165, 20);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+  color: #8a4c0f;
+}
+
+.menu-icon {
+  text-align: center;
+}
+
+.welcome-icon {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+
+.welcome-icon:hover {
+  transform: scale(1.1);
+}
+
+form {
+  background-color: #ffeed1;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+form label {
+  font-weight: bold;
+  color: #f17720;
+  margin-bottom: 5px;
+}
+
+form input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+.dining-options {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.dining-options label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #e67e22;
+  cursor: pointer;
+}
+
+.dining-options input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.dining-options input[type="checkbox"]:checked {
+  background-color: #e67e22;
+  border-color: #e67e22;
+}
+
+.text-danger {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  color: #e67e22;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.mb-3 label {
+  font-size: 1rem;
+  color: #e67e22;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mb-3 input[type="radio"] {
+  margin-right: 10px;
+}
+
+.comment-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comment-item p {
+  margin: 0;
+}
+
+.comment-item .author {
+  font-weight: bold;
+  color: #34495e;
+}
+
+.comment-item .timestamp {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+.comment-form {
+  margin-top: 20px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.comment-form button {
+  background-color: #f17720;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #d35e0b;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 8px;
+  font-size: 1em;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  text-decoration: none;
+
+  background-color: #f17720;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #ac500e;
+}
+
+.btn-warning {
+  background-color: #f1c40f;
+  color: white;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #d4ac0d;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+.btn-secondary {
+  text-decoration: none;
+
+  background-color: #95a5a6;
+  color: white;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #7f8c8d;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

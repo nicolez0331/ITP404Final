@@ -1,0 +1,196 @@
+{
+  "logs": [
+    {
+      "restaurantId": "3",
+      "foodOrdered": "Avocado Toast",
+      "date": "2024-11-10",
+      "rating": "2",
+      "description": "Best brunch I've ever had!",
+      "diningOption": [
+        "1",
+        "4"
+      ],
+      "userId": "2",
+      "recommend": true,
+      "id": "3"
+    },
+    {
+      "restaurantId": "2",
+      "foodOrdered": "Salad",
+      "date": "2024-11-13",
+      "rating": "5",
+      "description": "Fresh but could use more dressing.",
+      "diningOption": [
+        "2"
+      ],
+      "userId": "1",
+      "recommend": true,
+      "id": "5"
+    },
+    {
+      "id": "77f0",
+      "restaurantId": "c224",
+      "userId": "f408",
+      "foodOrdered": "Spicy Thai",
+      "date": "2024-12-18",
+      "rating": "4",
+      "description": "I loved the food!",
+      "diningOption": [
+        "1"
+      ],
+      "recommend": true
+    },
+    {
+      "id": "1190",
+      "restaurantId": "8e81",
+      "userId": "9e60",
+      "foodOrdered": "Avocado Toast",
+      "date": "2024-10-16",
+      "rating": "5",
+      "description": "Love it!",
+      "diningOption": [
+        "1",
+        "2"
+      ],
+      "recommend": true
+    },
+    {
+      "restaurantId": "4",
+      "foodOrdered": "Avocado toast",
+      "date": "2024-12-03",
+      "rating": "3",
+      "description": "Great experience!",
+      "diningOption": [
+        "1",
+        "2"
+      ],
+      "userId": "a378",
+      "recommend": false,
+      "id": "ca0c"
+    }
+  ],
+  "comments": [
+    {
+      "id": "b8e0",
+      "userId": "3",
+      "logId": "1190",
+      "content": "Great!",
+      "timestamp": "2024-12-05T09:21:56.619Z"
+    },
+    {
+      "id": "3b5c",
+      "userId": "1732868208839",
+      "logId": "3",
+      "content": "I love this place!",
+      "timestamp": "2024-12-05T09:25:14.089Z"
+    },
+    {
+      "id": "9f1d",
+      "userId": "b14d",
+      "logId": "77f0",
+      "content": "Great fooD!",
+      "timestamp": "2024-12-05T09:49:41.479Z"
+    },
+    {
+      "id": "2a0e",
+      "userId": "9e60",
+      "logId": "1190",
+      "content": "hhh",
+      "timestamp": "2024-12-05T09:55:04.305Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice"
+    },
+    {
+      "id": "2",
+      "name": "Bob"
+    },
+    {
+      "id": "3",
+      "name": "Nicole Zhang"
+    },
+    {
+      "id": "1732868208839",
+      "name": "Chris Zhang"
+    },
+    {
+      "id": "1732877281849",
+      "name": "Luo"
+    },
+    {
+      "id": "9e60",
+      "name": "Winnie"
+    },
+    {
+      "id": "f408",
+      "name": "Ben"
+    },
+    {
+      "id": "1733380759223",
+      "name": "Nicole"
+    },
+    {
+      "id": "7167",
+      "name": "Shelly"
+    },
+    {
+      "id": "a378",
+      "name": "Joanna"
+    },
+    {
+      "id": "b14d",
+      "name": "Zoe"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Cafe Bistro"
+    },
+    {
+      "id": "2",
+      "name": "Burger Haven"
+    },
+    {
+      "id": "3",
+      "name": "Brunch Spot"
+    },
+    {
+      "id": "4",
+      "name": "Great White"
+    },
+    {
+      "id": "8e81",
+      "name": "Republique"
+    },
+    {
+      "id": "c224",
+      "name": "Nick's Laguna Beach"
+    },
+    {
+      "id": "5a10",
+      "name": "Nicole's Brunch Restaurant"
+    }
+  ],
+  "diningOption": [
+    {
+      "id": "1",
+      "name": "Dine-In"
+    },
+    {
+      "id": "2",
+      "name": "Family Friendly"
+    },
+    {
+      "id": "3",
+      "name": "Takeout"
+    },
+    {
+      "id": "4",
+      "name": "Outdoor Seating"
+    }
+  ]
+}
